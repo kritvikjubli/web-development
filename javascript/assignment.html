@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head> 
+<title>Assignment</title>
+<script>
+function change(){
+var name=document.getElementById("input").value;
+if(name.length==0){
+document.getElementById("para").innerHTML=" hey! type something";}
+else {
+document.getElementById("para").innerHTML="hello "+name+" nice to meet you";
+}
+
+}
+</script>
+</head>
+<body onload="alert('NICE TO MEET YOU')";>
+<h1 style="color:red";>Type your name to change its color and size</h1>
+<input id="input" type="text"/>
+<button onclick="change()">change color</button>
+<p id="para" type="text" style="color:green;font-size:200%;"></p>
+</body>
+</html>
