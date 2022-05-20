@@ -1,0 +1,29 @@
+body{
+background-color:lightblue;
+}
+h1{
+color:red;
+margin-left:10px;
+font-size:200%;
+}
+
+p{
+	color:purple;
+margin-left:10px;
+	font-size:250%;
+}
+table{
+	border: 5px solid red ;
+	width: 90%;
+}
+td{
+	border:2px solid black;
+	padding:5px;
+}
+tr:nth-child(even){
+	background-color:lightgrey;
+}
+tr:nth-child(odd){
+	background-color:white;
+}
+	
